@@ -21,6 +21,6 @@ public class Klant {
         if(naam == null || kortingsPercentage == 0) {
             return "er is geen huurder bekend";
         }
-        return "op naam van: " + naam + " (korting: " + getKorting() + ")";
+        return "op naam van: " + naam + " (korting: " + kortingsPercentage + ")";
     }
 }
