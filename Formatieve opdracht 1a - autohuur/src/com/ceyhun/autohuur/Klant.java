@@ -3,7 +3,7 @@ package com.ceyhun.autohuur;
 public class Klant {
 
     private String naam;
-    double kortingsPercentage;
+    private double kortingsPercentage;
 
     public void klant(String naam) {
         this.naam = naam;

@@ -2,8 +2,8 @@ package com.ceyhun.autohuur;
 
 public class Auto {
 
-    String type;
-    double prijsperdag;
+    private String type;
+    private double prijsperdag;
 
     public void auto(String type, double prijsperdag) {
         this.type = type;

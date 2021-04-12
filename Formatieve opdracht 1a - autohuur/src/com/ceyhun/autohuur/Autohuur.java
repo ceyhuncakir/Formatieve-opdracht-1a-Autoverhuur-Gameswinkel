@@ -2,7 +2,7 @@ package com.ceyhun.autohuur;
 
 public class Autohuur {
 
-    int aantalDagen;
+    private int aantalDagen;
 
     Auto auto = new Auto();
     Klant klant = new Klant();
@@ -32,7 +32,7 @@ public class Autohuur {
     }
 
     public double totaalPrijs() {
-        int discount = (int) (auto.getPrijsperdag() * aantalDagen / 100 * klant.kortingsPercentage);
+        int discount = (int) (auto.getPrijsperdag() * aantalDagen / 100 * klant.getKorting());
         return auto.getPrijsperdag() * aantalDagen - discount;
     }
 
