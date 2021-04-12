@@ -1,8 +1,11 @@
 package com.ceyhun.autohuur;
 
+import java.util.HashMap;
+
 public class Main {
 
     public static void main(String[] args) {
+
         Autohuur ah1 = new Autohuur();
         Autohuur ah2 = new Autohuur();
 

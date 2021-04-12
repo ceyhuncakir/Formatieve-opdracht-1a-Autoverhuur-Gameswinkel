@@ -2,11 +2,11 @@ package com.ceyhun.opdracht1a;
 
 public class Game {
 
-    public String game;
-    public int release;
-    public double price;
+    private final String game;
+    private final int release;
+    private final double price;
 
-    public void setGame(String game, int release, double price) {
+    public Game(String game, int release, double price) {
         this.game = game;
         this.release = release;
         this.price = price;
